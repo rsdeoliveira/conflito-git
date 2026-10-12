@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nossa equipe | Laboratório de colaboração</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #183342; background: #f2f7f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { padding: 64px 24px; background: #123c48; color: white; text-align: center; }
+    header p { max-width: 620px; margin: 16px auto 0; line-height: 1.7; color: #d4e9ed; }
+    .etiqueta { color: #83e4d6; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; }
+    h1 { font-size: clamp(2rem, 6vw, 3.5rem); margin: 16px 0; }
+    main { max-width: 1100px; margin: auto; padding: 40px 24px 64px; }
+    #perfis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 24px; min-height: 80px; }
+    .perfil { background: white; border: 1px solid #d8e5e8; border-radius: 18px; padding: 28px; box-shadow: 0 8px 24px #123c4809; }
+    .perfil h3 { color: #08796e; margin-top: 0; }
+    .perfil p { line-height: 1.7; }
+    .instrucoes { background: #e2f3f0; border-left: 4px solid #08796e; padding: 20px 24px; margin-bottom: 36px; border-radius: 8px; }
+    .instrucoes h2 { margin-top: 0; font-size: 1.1rem; }
+    .instrucoes li { margin: 10px 0; line-height: 1.6; }
+    code { background: #ffffff9c; border-radius: 4px; padding: 2px 5px; }
+    footer { padding: 24px; text-align: center; background: white; border-top: 1px solid #d8e5e8; }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="etiqueta">Laboratório de Git + GitHub</span>
+    <!-- DESAFIO 1: cada aluno substitui o título abaixo por sua proposta. -->
+    <h1>Conheça nossa equipe</h1>
+    <p>Uma página construída em conjunto. Cada perfil representa uma contribuição; cada revisão ajuda a equipe a crescer.</p>
+  </header>
+
+  <main>
+    <aside class="instrucoes" aria-label="Instruções da atividade">
+      <h2>Missão: meu perfil, nossa equipe</h2>
+      <ol>
+        <li>Todos criam suas branches a partir desta mesma versão, antes do primeiro merge.</li>
+        <li>Na sua branch, proponha um título e substitua o comentário dentro de <code>#perfis</code> pelo seu cartão.</li>
+        <li>Faça commit, push e abra um Pull Request para <code>main</code>. Revise a contribuição de um colega.</li>
+        <li>Integrem um PR por vez. Na sua vez, faça fetch e merge de <code>origin/main</code> na sua branch.</li>
+        <li>Resolva os conflitos preservando todos os perfis e negociando um título comum. Teste, faça commit e push para atualizar o mesmo PR.</li>
+      </ol>
+    </aside>
+
+    <h2>Quem somos</h2>
+    <!-- DESAFIO 2: todos substituem o MESMO comentário abaixo, sem acrescentar o cartão fora desta seção. -->
+    <section id="perfis" aria-label="Perfis dos integrantes">
+      <!-- SUBSTITUIR POR PERFIS -->
+    </section>
+
+    <!-- MODELO: copie este cartão para substituir o comentário dentro de #perfis.
+    Não edite o modelo; personalize a cópia. Use apenas informações que queira publicar.
+
+    <article class="perfil">
+      <h3>Seu nome ou apelido</h3>
+      <p>Uma breve apresentação sobre você.</p>
+      <p><strong>Habilidades:</strong> HTML, CSS ou outras habilidades.</p>
+      <p><strong>Quero aprender:</strong> seu objetivo de aprendizagem.</p>
+    </article>
+    -->
+  </main>
+
+  <footer>Feito em equipe — com commits, revisão e colaboração.</footer>
+</body>
+</html>
